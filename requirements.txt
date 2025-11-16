@@ -1,0 +1,17 @@
+# Python dependencies for Quantium project
+# Tested with Python 3.9
+
+# Core data analysis library
+pandas>=1.3.0
+
+# Dash framework for building web applications
+dash>=2.0.0
+
+# Testing dependencies (installed via dash[testing])
+# These will be installed separately using: pip install "dash[testing]"
+# - selenium
+# - requests
+# - beautifulsoup4
+# - lxml
+# - percy
+# - waitress
